@@ -1,0 +1,2 @@
+defmodule WaveFunctionCollapse do
+end
