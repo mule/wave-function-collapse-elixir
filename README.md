@@ -1,6 +1,8 @@
 # WaveFunctionCollapse
 
-**TODO: Add description**
+My attempt to port the following repo to elixir:
+
+https://github.com/mxgmn/WaveFunctionCollapse
 
 ## Installation
 
