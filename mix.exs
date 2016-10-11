@@ -27,6 +27,9 @@ defmodule WaveFunctionCollapse.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:math, git: "https://github.com/folz/math"},
+      {:imagineer, git: "https://github.com/SenecaSystems/imagineer"}
+    ]
   end
 end

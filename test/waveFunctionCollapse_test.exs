@@ -3,6 +3,14 @@ defmodule WaveFunctionCollapseTest do
   doctest WaveFunctionCollapse
 
   test "the truth" do
-    assert 1 + 1 == 2
+    testImagePath = "./samples/Cave.png"
+    {:ok, testImage} = Imagineer.load(testImagePath)
+    
+    testImageWithPalette = ImageUtilities.from_list(testImage.pixels)
+    IO.inspect testImageWithPalette
+   
   end
+
+
+  test ""
 end

@@ -1,0 +1,3 @@
+%{"apex": {:hex, :apex, "0.5.2", "bc4d44c3f824d70cd295fc2fd395243df34a1c1659f5ef17381f5fbee1c7f00e", [:mix], []},
+  "imagineer": {:git, "https://github.com/SenecaSystems/imagineer", "30c0098498e71b6d34efa5e8f485f31a4911de17", []},
+  "math": {:git, "https://github.com/folz/math", "5d352cf914f61eef7507d22f442777f74de8cdcb", []}}
