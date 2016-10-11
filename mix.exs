@@ -29,7 +29,8 @@ defmodule WaveFunctionCollapse.Mixfile do
   defp deps do
     [
       {:math, git: "https://github.com/folz/math"},
-      {:imagineer, git: "https://github.com/SenecaSystems/imagineer"}
+      {:imagineer, git: "https://github.com/SenecaSystems/imagineer"},
+      {:tensor, git: "https://github.com/Qqwy/tensor"}
     ]
   end
 end

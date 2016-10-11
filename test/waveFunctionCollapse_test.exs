@@ -2,7 +2,7 @@ defmodule WaveFunctionCollapseTest do
   use ExUnit.Case
   doctest WaveFunctionCollapse
 
-  test "the truth" do
+  test "should create pixel matrix and color palette" do
     testImagePath = "./samples/Cave.png"
     {:ok, testImage} = Imagineer.load(testImagePath)
     
