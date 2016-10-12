@@ -2,8 +2,12 @@ defmodule ImageUtilities do
   require Tensor
   def build_palette_map(pixels, width, heigth, background) do
 
-    pixelMatrix = Matrix.new()
-    palette_map = Enum.reduce(pixels, %{}, fn(pixel_row, palette_map) ->
+    pixelMatrix = Matrix.new(height,width)
+
+    
+
+
+    palette_map = Enum.reduce(pixels,%{}, fn(pixel_row, %{palette_map) ->
       Enum.reduce(pixel_row, palette_map, fn(pixel, palette_map) ->
         # The size will be the index in the pixel array
         Map.put_new(palette_map, pixel, map_size(palette_map))
@@ -18,11 +22,7 @@ defmodule ImageUtilities do
       palette_map
     end
 
-    %{image | palette: palette_map}
-  end
-
-  def from_list(list) when is_list(list) do
-    do_from_list(list)
+    %{palette: palette_map}
   end
 
 

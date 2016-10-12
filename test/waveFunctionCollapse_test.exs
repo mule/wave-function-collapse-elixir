@@ -11,6 +11,4 @@ defmodule WaveFunctionCollapseTest do
    
   end
 
-
-  test ""
 end
